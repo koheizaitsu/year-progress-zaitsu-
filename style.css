@@ -49,7 +49,7 @@ h1 {
 
 .subtitle {
   font-size: 1.1rem;
-  color: var(--text-muted);
+  color: white(--text-muted);
 }
 
 .cards {
@@ -78,7 +78,7 @@ h1 {
 .card h2 {
   font-size: 0.95rem;
   text-transform: uppercase;
-  color: var(--text-muted);
+  color: red(--text-muted);
   letter-spacing: 0.2em;
   margin-bottom: 18px;
 }
@@ -157,12 +157,12 @@ h1 {
   text-align: center;
   margin-top: 12px;
   font-size: 0.95rem;
-  color: var(--text-muted);
+  color: red(--text-muted);
   letter-spacing: 0.1em;
 }
 
 .progress-bar-label span {
-  color: var(--accent);
+  color: red(--accent);
   font-weight: 600;
   font-size: 1.1rem;
 }
@@ -180,7 +180,7 @@ h1 {
 
 .info p {
   font-size: 0.95rem;
-  color: var(--text-muted);
+  color: red(--text-muted);
 }
 
 .info strong {
@@ -188,19 +188,19 @@ h1 {
   font-size: 0.75rem;
   text-transform: uppercase;
   letter-spacing: 0.2em;
-  color: var(--accent-strong);
+  color: red(--accent-strong);
   margin-bottom: 4px;
 }
 
 .info span {
-  color: var(--text-main);
+  color: red(--text-main);
   font-size: 1.05rem;
 }
 
 .note {
   grid-column: 1 / -1;
   font-size: 0.85rem;
-  color: var(--text-muted);
+  color: green(--text-muted);
   font-style: normal;
   opacity: 0.8;
   margin-top: 6px;
@@ -213,7 +213,7 @@ footer {
 }
 
 footer p {
-  color: var(--text-muted);
+  color: white(--text-muted);
   font-size: 0.8rem;
   letter-spacing: 0.18em;
   text-transform: uppercase;
